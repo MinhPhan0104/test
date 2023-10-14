@@ -6,7 +6,7 @@
     "start": "ts-node index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "NhuanPhan",
+  "author": "MinhPhan",
   "license": "MIT",
   "dependencies": {
     "@types/express": "^4.17.17",
