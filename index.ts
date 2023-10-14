@@ -2,9 +2,9 @@ import socketIOClient from "socket.io-client";
 
 const WS_SERVER_HOST = "http://10.188.0.2";
 // const WS_SERVER_HOST = "http://localhost";
-const WS_SERVER_PORT = 20000;
+const WS_SERVER_PORT = 3000;
 
-const NUMBER_OF_CONNECTION = 2000;
+const NUMBER_OF_CONNECTION = 20000;
 const CONNECTION_PER_BATCH = 20;
 const connections: Array<any> = [];
 const conStatus: Array<boolean> = new Array(NUMBER_OF_CONNECTION).fill(false);
