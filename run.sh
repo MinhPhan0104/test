@@ -1,3 +1,4 @@
 #!/bin/sh
-npm install
+sudo cp ../node_modules.zip .
+sudo unzip node_modules.zip
 npm start
