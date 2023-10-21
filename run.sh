@@ -1,2 +1,3 @@
 #! /bin/bash
-cd /home/ws-test & ts-node start
+cd /home/ws-test
+/bin/bash npm start
