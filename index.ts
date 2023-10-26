@@ -49,6 +49,9 @@ function createBatchConnection(connIdx: number, conInBatch: number) {
     connections.push(con);
 
     con.on("connect", () => {
+      if (conStatus[i]) {
+        return;
+      }
       conStatus[i] = true;
       if (shouldCreateNext()) {
         setTimeout(() => {
