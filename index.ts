@@ -1,6 +1,6 @@
 import socketIOClient from "socket.io-client";
 
-const WS_SERVER_HOST = "http://34.16.156.104";
+const WS_SERVER_HOST = "http://34.125.103.124";
 // const WS_SERVER_HOST = "http://localhost";
 const WS_SERVER_PORT = 80;
 
