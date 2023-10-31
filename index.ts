@@ -1,8 +1,8 @@
 import socketIOClient from "socket.io-client";
 
-const WS_SERVER_HOST = "http://10.182.0.11";
+const WS_SERVER_HOST = "http://34.125.103.124";
 // const WS_SERVER_HOST = "http://localhost";
-const WS_SERVER_PORT = 3000;
+const WS_SERVER_PORT = 80;
 
 const NUMBER_OF_CONNECTION = 50000;
 const CONNECTION_PER_BATCH = 100;
